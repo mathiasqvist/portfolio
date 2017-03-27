@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.footer1 {
+  height: 300px;
+  width: 1150px;
+  box-shadow: -5px 0 5px -5px rgba(249, 207, 175, 0.29), 5px 0 5px -5px rgba(249, 207, 175, 0.29);
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center; }
+  .footer1 p {
+    font-size: 16px;
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif; }
+
+.footerimg {
+  width: 45px;
+  margin-top: 60px;
+  padding: 0px 5px 0px 5px; }
+
+.footer span {
+  display: block;
+  padding-bottom: 10px; }
+
+#container1 {
+  width: 1150px;
+  box-shadow: -5px 0 5px -5px rgba(249, 207, 175, 0.29), 5px 0 5px -5px rgba(249, 207, 175, 0.29);
+  display: block;
+  margin: 0 auto;
+  background-color: white; }
+
+#section1 {
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto; }
+
+#logo {
+  width: 80px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px; }
+
+#navbar {
+  display: block;
+  text-align: center;
+  height: 110px; }
+
+#navbarone {
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  padding-top: 30px;
+  padding-right: 20px; }
+  #navbarone a {
+    color: #888888;
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px; }
+
+#navbarone a:hover {
+  color: black; }
+
+.hrtop {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  border: none;
+  height: 1px;
+  color: #d6d6d6;
+  background-color: #d6d6d6; }
+
+#forside0 {
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 1000px;
+  height: 400px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  color: #a5a5a5; }
+
+.forsideimg {
+  width: 400px;
+  margin-bottom: 100px; }
+
+#forside1 {
+  width: 275px; }
+  #forside1 h1 {
+    margin-top: 100px;
+    font-weight: 100; }
+
+#forside2 {
+  width: 450px; }
+  #forside2 img {
+    width: 450px;
+    margin-bottom: 100px; }
+
+#forside3 {
+  width: 275px; }
+  #forside3 h1 {
+    margin-top: 100px;
+    font-weight: 100; }
+
+#forside4 {
+  width: 1000px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  color: #6b6b6b;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 150px;
+  padding-top: 150px; }
+
+#pf0 {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 150px; }
+
+#pf1 {
+  width: 50%;
+  font-family: "Open Sans", "Montserrat"; }
+  #pf1 p {
+    width: 90%; }
+
+#pf1 a {
+  background-color: white;
+  color: #008cc9;
+  font-family: "Open Sans", "Montserrat";
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 19px;
+  display: inline-block;
+  padding: 8px 40px 8px 40px;
+  border: 1px solid #008cc9;
+  border-radius: 2px;
+  outline: none; }
+
+#pf1 a:hover {
+  border: 1px solid #016996;
+  color: #016996; }
+
+#pf2 {
+  width: 400px;
+  text-align: center; }
+  #pf2 img {
+    border-radius: 10px; }
+
+#pf3 {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 1000px;
+  height: auto;
+  padding-bottom: 150px; }
+
+.port1 {
+  width: 400px; }
+
+.port2 {
+  width: 300px; }
+
+#beskrivelse {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  padding-top: 100px;
+  color: #6b6b6b;
+  font-family: "Montserrat", sans-serif; }
+
+.LI-icon {
+  display: none; }
+
+#om1 {
+  width: 1000px;
+  font-family: "Open Sans", "Montserrat";
+  display: inline-flex;
+  justify-content: center;
+  padding: 100px 0px 150px 0px; }
+  #om1 p {
+    width: 450px;
+    font-size: 16px; }
+
+#om1 article img {
+  margin-left: 150px;
+  margin-top: 190px;
+  transition: transform 350ms ease-in-out;
+  outline: none; }
+
+.animate {
+  transform: translate(0px, -350px) rotate(360deg); }
+
+#bold {
+  animation: bounce 2s ease 0s; }
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(-100%); }
+  5% {
+    transform: translateY(-100%); }
+  15% {
+    transform: translateY(0);
+    padding-bottom: 5px; }
+  30% {
+    transform: translateY(-50%); }
+  40% {
+    transform: translateY(0%);
+    padding-bottom: 6px; }
+  50% {
+    transform: translateY(-30%); }
+  70% {
+    transform: translateY(0%);
+    padding-bottom: 7px; }
+  80% {
+    transform: translateY(-15%); }
+  90% {
+    transform: translateY(0%);
+    padding-bottom: 8px; }
+  95% {
+    transform: translateY(-7%); }
+  97% {
+    transform: translateY(0%);
+    padding-bottom: 9px; }
+  99% {
+    transform: translateY(-3%); }
+  100% {
+    transform: translateY(0);
+    padding-bottom: 9px; } }
+
+/*# sourceMappingURL=style.css.map */
